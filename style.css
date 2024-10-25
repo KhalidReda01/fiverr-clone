@@ -136,6 +136,25 @@ header .navbar {
 }
 
 @media screen and (max-width: 900px) {
+  .navbar .menu-links {
+    background: #fff;
+    height: 100vh;
+    max-width: 300px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: block;
+    padding: 75px 40px 0;
+  }
+  .navbar .menu-links a {
+    color: #000;
+    font-size: 1.1rem;
+    padding: 75px 40px;
+  }
+  .navbar .menu-links li {
+    margin-bottom: 30px;
+  }
   .hero-section {
     background: none;
   }
@@ -151,12 +170,15 @@ header .navbar {
     display: block;
     margin-top: 20px;
   }
-  .hero-section .search-form button {
-    width: 100%;
-    margin-top: 10px;
-    border-radius: 4px;
-  }
-  .hero-section .popular-tags {
-    display: none;
-  }
+}
+.hero-section .search-form input {
+  border-radius: 4px;
+}
+.hero-section .search-form button {
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+.hero-section .popular-tags {
+  display: none;
 }
