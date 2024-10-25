@@ -135,14 +135,30 @@ header .navbar {
   background: #fff;
 }
 
+.navbar #hamburger-btn {
+  color: #fff;
+  font-size: 1.7rem;
+  cursor: pointer;
+}
+.navbar #close-menu-btn {
+  color: #000;
+  font-size: 1.7rem;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
 @media screen and (max-width: 900px) {
+  .navbar :is(#hamburger-btn, #close-menu-btn) {
+    display: block;
+  }
   .navbar .menu-links {
     background: #fff;
     height: 100vh;
     max-width: 300px;
     width: 100%;
     position: fixed;
-    left: 0;
+    left: -300px;
     top: 0;
     display: block;
     padding: 75px 40px 0;
