@@ -150,10 +150,17 @@ header .navbar {
   .navbar .menu-links a {
     color: #000;
     font-size: 1.1rem;
-    padding: 75px 40px;
+    /* padding: 75px 40px; */
   }
   .navbar .menu-links li {
     margin-bottom: 30px;
+  }
+  .navbar .menu-links .join-btn a {
+    padding: 0;
+  }
+  .navbar .menu-links .join-btn a:hover {
+    color: #1dbf73;
+    background: none;
   }
   .hero-section {
     background: none;
