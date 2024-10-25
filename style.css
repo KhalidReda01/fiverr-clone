@@ -177,15 +177,16 @@ header .navbar {
     display: block;
     margin-top: 20px;
   }
-}
-.hero-section .search-form input {
-  border-radius: 4px;
-}
-.hero-section .search-form button {
-  width: 100%;
-  margin-top: 10px;
-  border-radius: 4px;
-}
-.hero-section .popular-tags {
-  display: none;
+
+  .hero-section .search-form input {
+    border-radius: 4px;
+  }
+  .hero-section .search-form button {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 4px;
+  }
+  .hero-section .popular-tags {
+    display: none;
+  }
 }
