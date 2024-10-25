@@ -65,10 +65,13 @@
         // Toggle moblie menu on hamburger button click
         hamburgerBtn.addEventListener("click", () => {
           header.classList.toggle("show-mobile-menu");
+          closeMenuBtn.style.display = "block";
         });
         // close menu on close button click
         closeMenuBtn.addEventListener("click", () => {
           hamburgerBtn.click();
+          header.classList.remove("show-mobile-menu");
+          closeMenuBtn.style.display = "none";
         });
       </script>
     </section>

@@ -148,6 +148,10 @@ header .navbar {
   right: 20px;
   top: 20px;
 }
+.navbar :is(#hamburger-btn, #close-menu-btn) {
+  display: none;
+}
+
 @media screen and (max-width: 900px) {
   header.show-mobile-menu::before {
     content: "";
