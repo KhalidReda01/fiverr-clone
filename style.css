@@ -59,4 +59,64 @@ header .navbar {
   background: url("images/hero-img.jpg");
   background-position: center;
   background-size: cover;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.hero-section .content {
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+}
+.hero-section .content h1 {
+  color: #fff;
+  font-size: 3rem;
+  max-width: 630px;
+}
+.hero-section .search-form {
+  display: flex;
+  height: 48px;
+  max-width: 630px;
+}
+
+.hero-section .search-form input {
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: none;
+  background: #fff;
+  font-size: 1rem;
+  padding: 0 15px;
+  border-radius: 4px 0 0 4px;
+}
+
+.hero-section .search-form button {
+  height: 100%;
+  width: 60px;
+  outline: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 0 4px 4px 0;
+  background: #1dbf73;
+  transition: background 0.2s ease;
+}
+.hero-section .search-form button:hover {
+  background: #19a463;
+}
+.hero-section .popular-tags {
+  display: flex;
+  color: #fff;
+  gap: 24px;
+  font-size: 0.9rem;
+}
+
+.hero-section .popular-tags .tags {
+  list-style: none;
+  display: flex;
+}
+.hero-section .tags li a {
+  color: #fff;
+  border: 1px solid #fff;
 }
